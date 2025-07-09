@@ -4,6 +4,7 @@ using System.Security.Claims;
 using DesignPatternsCSharpp.Creational;
 using DesignPatternsCSharpp.Structural;
 using DesignPatternsCSharpp.Behavioural;
+using DesignPatternsCSharpp.SOLID;
 
 namespace DesignPatternsCSharpp
 {
@@ -72,7 +73,7 @@ namespace DesignPatternsCSharpp
             //AdapterPattern.Run();
             //DecoratorPattern.Run();
             //FacadePattern.Run();
-            CompositePattern.Run();
+            //CompositePattern.Run();
 
 
 
@@ -82,6 +83,15 @@ namespace DesignPatternsCSharpp
             //MediatorPattern.Run();
             //StrategyPattern.Run();
             //ObserverPattern.Run();
+
+
+
+            //SOLID Principles examples
+            //SingleResponsibility.Run();
+            //OpenClosedPrinciple.Run();
+            //LiskovSubstitution.Run();
+            //InterfaceSegregation.Run();
+            DependencyInversion.Run();
         }
     }
 }
