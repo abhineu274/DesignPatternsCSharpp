@@ -23,7 +23,7 @@ namespace DesignPatternsCSharpp.Structural
     // Decorator base class
     public abstract class NotifierDecorator : INotifier //This class allows wrapping of INotifier instances
     {
-        protected INotifier _wrappee;
+        protected INotifier _wrappee; //wrappee is the instance being decorated
 
         protected NotifierDecorator(INotifier wrappee)
         {
@@ -74,8 +74,8 @@ namespace DesignPatternsCSharpp.Structural
 
             Console.WriteLine("Decorator Pattern Example");
             INotifier notifier = new EmailNotifier(); //Create an EmailNotifier instance
-            notifier = new SMSNotifier(notifier); //Wrap it with SMSNotifier - this adds SMS functionality
-            notifier = new PushNotifier(notifier); //Wrap it with PushNotifier - this adds Push Notification functionality
+            notifier = new SMSNotifier(notifier); //Literally, Wrap it with SMSNotifier - this adds SMS functionality
+            notifier = new PushNotifier(notifier); //Literally, Wrap it with PushNotifier - this adds Push Notification functionality
 
             //PushNotifier-- > SMSNotifier-- > EmailNotifier
             //This is what notifier looks like now - It has wrapped the EmailNotifier with SMSNotifier and PushNotifier decorators.

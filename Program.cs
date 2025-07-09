@@ -57,11 +57,11 @@ namespace DesignPatternsCSharpp
         static void Main(string[] args)
         {
             //Creational Design Patterns examples
-            //SingletonPattern.Run(); // Running Singleton Pattern example
-            //BuilderPattern.Run(); // Running Builder Pattern example
-            //Factory.Run(); // Running Factory Method Pattern example
-            //AbstractFactory.Run(); // Running Abstract Factory Pattern example
-            //PrototypePattern.Run(); // Running Prototype Pattern example
+            //SingletonPattern.Run();
+            //BuilderPattern.Run();
+            //Factory.Run();
+            //AbstractFactory.Run();
+            //PrototypePattern.Run();
 
             //Factory vs Abstract Factory
             //Factory - defines an interface for creating an object, but lets subclasses decide which class to instantiate.
@@ -69,19 +69,19 @@ namespace DesignPatternsCSharpp
 
 
             //Structural Design Patterns examples
-            //AdapterPattern.Run(); // Running Adapter Pattern example
-            DecoratorPattern.Run(); // Running Decorator Pattern example
-            //FacadePattern.Run(); // Running Facade Pattern example
-
+            //AdapterPattern.Run();
+            //DecoratorPattern.Run();
+            //FacadePattern.Run();
+            CompositePattern.Run();
 
 
 
 
             //Behavioral Design Patterns examples
-            //CommandPattern.Run(); // Running Command Pattern example
-            //MediatorPattern.Run(); // Running Mediator Pattern example
-            //StrategyPattern.Run(); // Running Memento Pattern example
-            //ObserverPattern.Run(); // Running Observer Pattern example
+            //CommandPattern.Run();
+            //MediatorPattern.Run();
+            //StrategyPattern.Run();
+            //ObserverPattern.Run();
         }
     }
 }
