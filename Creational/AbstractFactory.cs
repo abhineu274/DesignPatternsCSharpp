@@ -39,6 +39,7 @@
     {
         public static void Run()
         {
+            Console.WriteLine("Running Abstract Factory Pattern Example:");
             IAnimalFactory factory = new LandAnimalFactory();
 
             IPetAnimal pet = factory.CreatePet();

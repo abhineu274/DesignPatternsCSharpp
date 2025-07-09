@@ -47,6 +47,7 @@ namespace DesignPatternsCSharpp.Creational
     {
         public static void Run()
         {
+            Console.WriteLine("Running Builder Pattern Example:");
             // Using the builder to create a Car object
             Car tesla = new CarBuilder()
                 .SetMake("Tesla")

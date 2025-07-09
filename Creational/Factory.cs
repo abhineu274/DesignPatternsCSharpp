@@ -26,6 +26,7 @@
     {
         public static void Run()
         {
+            Console.WriteLine("Running Factory Pattern Example:");
             // Create a Circle and clone it
             Circle circle1 = new Circle { X = 10, Y = 20, Radius = 5 };
             Circle circle2 = (Circle)circle1.Clone();

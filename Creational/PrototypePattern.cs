@@ -18,6 +18,7 @@
     {
         public static void Run()
         {
+            Console.WriteLine("Running Prototype Pattern Example:");
             // Create an original person
             Person original = new Person { Name = "John", Age = 30 };
             // Clone the original person

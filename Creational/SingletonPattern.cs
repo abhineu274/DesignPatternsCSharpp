@@ -17,6 +17,7 @@
     {
         public static void Run()
         {
+            Console.WriteLine("Running Singleton Pattern Example:");
             Logger logger = Logger.Instance;
             logger.Log("Running Singleton Pattern!");
         }
