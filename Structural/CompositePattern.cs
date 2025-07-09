@@ -48,6 +48,10 @@ namespace DesignPatternsCSharpp.Structural
     {
         public static void Run()
         {
+            // Here we demonstrate the Composite Pattern by creating a file system structure.
+            // The Folder class can contain both files and other folders, allowing for a tree-like structure.
+            // The File class represents individual files, while the Folder class can contain multiple items.
+            // Composite pattern is useful for representing part-whole hierarchies, such as file systems, where both individual objects and compositions of objects can be treated uniformly.
             Console.WriteLine("Running Composite Pattern Example:");
             var root = new Folder("Root");
             var file1 = new File("File1.txt");
